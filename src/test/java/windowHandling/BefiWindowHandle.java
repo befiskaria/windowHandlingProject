@@ -42,11 +42,11 @@ action=new Actions(driver);
 WebElement link=driver.findElement(By.xpath("//a[@href='https://mail.google.com/mail/&ogbl']"));
 action.contextClick(link).perform();
 Robot robot=new Robot();
-Thread.sleep(2000);
+Thread.sleep(1000);
 robot.keyPress(KeyEvent.VK_DOWN);
-Thread.sleep(2000);
+Thread.sleep(1000);
 robot.keyPress(KeyEvent.VK_DOWN);
-Thread.sleep(2000);
+Thread.sleep(1000);
 robot.keyPress(KeyEvent.VK_ENTER);
 
 //Get Window Handles
